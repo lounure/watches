@@ -54,32 +54,34 @@ body {
 }
 
 .header-title {
-    position: absolute;
-    width: 135px;
-    height: 32px;
-    left: 133px;
-    top: 104px;
-
-    font-family: 'League Spartan';
-    font-style: normal;
-    font-weight: 300;
     font-size: 24px;
-    line-height: 186%;
+    line-height: 45px;
+    font-weight: 300;
+
+    margin-bottom: 53px;
 }
 
 .header-subtitle {
-    position: absolute;
-    width: 877px;
-    height: 215px;
-    left: 133px;
-    top: 189px;
-
-    font-family: 'League Spartan';
-    font-style: normal;
-    font-weight: 300;
     font-size: 250px;
+    font-weight: 300;
     line-height: 230px;
 
+    margin-bottom: 43px;
     color: #272727;
+}
 
+.header-description {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 50px;
+
+    margin-bottom: 61px;
+}
+
+.buy-wrapper{
+    display: flex;
+}
+
+.buy-button{
+    display: block;
 }
