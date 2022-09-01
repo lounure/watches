@@ -94,7 +94,7 @@ body {
     text-decoration: none;
     color: white;
 
-    /*possible to do the same using text-align*/
+    /*possible to do the same using text-align (done in .price) */
 }
 
 .price {
@@ -116,3 +116,16 @@ body {
     margin-top: -104px;
     margin-left: -90px;
 }
+
+main{
+    background-color: white;
+}
+.popular-title{
+    text-align: center;
+    padding-top: 43px;
+
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 45px;
+}
+
